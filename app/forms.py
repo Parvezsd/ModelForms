@@ -21,8 +21,8 @@ class AccessRecordModelForms(forms.ModelForm):
         fields ='__all__'
         # fields=['name','author']
         # exclude=['author']
-        labels={'author':'A','date':'D','name':'N'}
-        widgets={'date':forms.PasswordInput}
-        help_texts={'name':'this is parent data'}
+        # labels={'author':'A','date':'D','name':'N'}
+        # widgets={'date':forms.PasswordInput}
+        # help_texts={'name':'this is parent data'}
 
         

@@ -22,4 +22,8 @@ urlpatterns = [
     path('insert_Topic/',insert_Topic,name='insert_Topic'),
     path('insert_Webpage/',insert_Webpage,name='insert_Webpage'),
     path('insert_AccessRecord/',insert_AccessRecord,name='insert_AccessRecord'),
+    path('wish/<data>/',wish,name='wish'),
 ]
+admin.site.site_header='Parvez'
+admin.site.site_title='Django'
+admin.site.index_title='My Project'
