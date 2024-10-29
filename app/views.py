@@ -39,4 +39,4 @@ def insert_AccessRecord(request):
     return render(request,'insert_AccessRecord.html',d)
 
 def wish(request,data):
-    return HttpResponse(f' Hello {data} how are u {data}')
+    return HttpResponse(f' Hello {data} how are u')
